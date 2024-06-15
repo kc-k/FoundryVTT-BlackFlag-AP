@@ -14,8 +14,22 @@
     }
   ],
   "relationships": {
-    "systems": ["black-flag"],
-    "requires": ["lib-wrapper"]
+    "systems": [{
+        "id": "black-flag",
+        "type": "system",
+        "manifest": "https://github.com/koboldpress/black-flag/releases/latest/download/module.json",
+        "compatibility": {
+            "verified": "0.9.034"
+        }
+    }],
+    "requires": [{
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {
+            "verified": "1.12.13.1"
+        }
+    }]
   },
   "languages": [
     {
