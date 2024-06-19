@@ -8,6 +8,11 @@
 <!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
 
 
+NOTE!!!!
+windows to wsl sym link for foundryvtt development
+New-Item -ItemType SymbolicLink -Path "F:/FoundryVTT/Data/modules/BlackFlag-AP" -Target "\\wsl$\Ubuntu22.04\home\<user>/git/FoundryVTT-BlackFlag-AP"
+
+
 # How to use this Template to create a versioned Release
 
 1. Open your repository's releases page.
