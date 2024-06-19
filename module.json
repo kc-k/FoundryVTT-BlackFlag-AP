@@ -39,7 +39,7 @@
     }
   ],
   "esmodules": [
-    "scripts/module.js"
+    "scripts/blackflag-ap.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"

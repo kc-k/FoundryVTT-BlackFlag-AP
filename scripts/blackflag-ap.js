@@ -21,7 +21,7 @@ class BlackFlagAPChallengeDie extends BlackFlag.dice.ChallengeDie {
 	 * Critical failure target if no critical failure is set in options.
 	 * @type {number}
 	 */
-	static CRITICAL_FAILURE_TOTAL = 3;
+	static CRITICAL_FAILURE_TOTAL = 4;
 
 	/* ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
